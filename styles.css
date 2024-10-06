@@ -1,0 +1,77 @@
+/*Hero Section*/
+
+#hero {
+  text-align: center;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#hero-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin: auto;
+  max-width: 70%;
+}
+
+#hero-title-name {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 6.5rem;
+  text-transform: uppercase;
+  /*font-family: "Playfair Dispay", "Times New Roman", Times, serif;*/
+  /*line-height: 1.2;*/
+  text-align: center;
+  color: #3b4f40;
+}
+
+#hero-subtitle {
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  max-width: 75%;
+  align-self: center;
+}
+
+/*Resume Section*/
+
+.section-heading {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 4rem;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+#resume {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: antiquewhite;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-sample {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
