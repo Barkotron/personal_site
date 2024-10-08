@@ -63,15 +63,84 @@
 }
 .flex-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: auto;
+  width: 75%;
 }
 
-.flex-sample {
-  width: 250px;
+.background-left {
+  background-color: bisque;
+}
+
+.background-right {
+  background-color: blanchedalmond;
+}
+
+.resume-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-top: 50px;
+
+  border-bottom: 2px solid black;
+
+  width: 100%;
   height: 250px;
-  border: 2px solid black;
-  border-radius: 8px;
-  background-color: white;
+}
+
+.left-aligned {
+  justify-content: left;
+  text-align: left;
+  align-self: start;
+
+  width: 70%;
+}
+
+.right-aligned {
+  justify-content: right;
+  text-align: right;
+  align-self: end;
+  width: 70%;
+}
+
+/*Projects*/
+#projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*About*/
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: antiquewhite;
+}
+
+#about-body{
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  line-height: 1;
+  text-align: left;
+  margin: auto;
+  width: 75%;
+}
+/*Contact*/
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*Footer*/
+
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
